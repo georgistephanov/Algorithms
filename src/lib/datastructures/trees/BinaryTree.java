@@ -1,7 +1,10 @@
 package lib.datastructures.trees;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class BinaryTree<T extends Comparable<? super T>> implements Tree<T> {
-	private Node<T> root;
+	private Node root;
 
 	public BinaryTree() {}
 
@@ -25,8 +28,11 @@ public class BinaryTree<T extends Comparable<? super T>> implements Tree<T> {
 	/**
 	 * Traverse the tree via an in-order tree walk and print its elements to the console
 	 */
-	public void inOrderTreeWalk() {
-		inOrderTreeWalk(root);
+	public List<T> inOrderTreeWalk() {
+		ArrayList<T> array = new ArrayList<>();
+		inOrderTreeWalk(array, root);
+
+		return array;
 	}
 
 	/**
@@ -81,6 +87,9 @@ public class BinaryTree<T extends Comparable<? super T>> implements Tree<T> {
 	 */
 	@SuppressWarnings("unchecked")
 	public void delete(Node node) {
+		if (node == null)
+			return;
+
 		if (node.getLeft() == null) {
 			// Case 1:
 			// The node doesn't have a left child, therefore replace it by its right child
@@ -116,6 +125,10 @@ public class BinaryTree<T extends Comparable<? super T>> implements Tree<T> {
 	 * @return the minimum element
 	 */
 	private Node minimumElementInSubtree(final Node n) {
+		if (n == null) {
+			return null;
+		}
+
 		Node node = n;
 
 		while (node.getLeft() != null) {
@@ -131,6 +144,10 @@ public class BinaryTree<T extends Comparable<? super T>> implements Tree<T> {
 	 * @return the maximum element
 	 */
 	private Node maximumElementInSubtree(final Node n) {
+		if (n == null) {
+			return null;
+		}
+
 		Node node = n;
 
 		while (node.getRight() != null) {
@@ -156,7 +173,7 @@ public class BinaryTree<T extends Comparable<? super T>> implements Tree<T> {
 			initialSubtree.getParent().setRight(substituteSubtree);
 		}
 
-		if (substituteSubtree.getParent() == null) {
+		if ( substituteSubtree != null ) {
 			substituteSubtree.setParent(initialSubtree.getParent());
 		}
 	}
@@ -165,11 +182,12 @@ public class BinaryTree<T extends Comparable<? super T>> implements Tree<T> {
 	 * Traverses the tree and prints its elements to the console
 	 * @param node the current node that is being accessed
 	 */
-	private void inOrderTreeWalk(Node node) {
+	@SuppressWarnings("unchecked")
+	private void inOrderTreeWalk(List<T> array, Node<T> node) {
 		if ( node != null ) {
-			inOrderTreeWalk(node.getLeft());
-			System.out.print(node.getKey() + " ");
-			inOrderTreeWalk(node.getRight());
+			inOrderTreeWalk(array, node.getLeft());
+			array.add(node.getKey());
+			inOrderTreeWalk(array, node.getRight());
 		}
 	}
 }

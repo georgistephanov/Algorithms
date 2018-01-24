@@ -38,7 +38,7 @@ public class Main {
 
 		// Binary search
 		{
-			BinaryTree bt = new BinaryTree();
+			BinaryTree<Integer> bt = new BinaryTree<>();
 			bt.insert(12);
 			bt.insert(5);
 			bt.insert(18);
@@ -54,7 +54,7 @@ public class Main {
 		}
 	}
 
-	public static void printArr(int a[]) {
+	private static void printArr(int a[]) {
 		for (int i : a) {
 			System.out.print(i + ", ");
 		}

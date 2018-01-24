@@ -1,6 +1,6 @@
 package lib.datastructures.trees;
 
-class Node<T> {
+public class Node<T> {
 	private T key;
 	private Node parent;
 	private Node left;
@@ -12,35 +12,35 @@ class Node<T> {
 		right = null;
 	}
 
+	public T getKey() {
+		return key;
+	}
+
 	void setKey(T key) {
 		this.key = key;
-	}
-
-	void setParent(Node parent) {
-		this.parent = parent;
-	}
-
-	void setLeft(Node left) {
-		this.left = left;
-	}
-
-	void setRight(Node right) {
-		this.right = right;
-	}
-
-	T getKey() {
-		return key;
 	}
 
 	Node getParent() {
 		return parent;
 	}
 
+	void setParent(Node parent) {
+		this.parent = parent;
+	}
+
 	Node getLeft() {
 		return left;
 	}
 
+	void setLeft(Node left) {
+		this.left = left;
+	}
+
 	Node getRight() {
 		return right;
+	}
+
+	void setRight(Node right) {
+		this.right = right;
 	}
 }
