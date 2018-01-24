@@ -6,7 +6,7 @@
 
 package core;
 import lib.algorithms.*;
-import lib.datastructures.BinaryTree;
+import lib.datastructures.trees.BinaryTree;
 
 public class Main {
 
@@ -50,7 +50,7 @@ public class Main {
 			bt.insert(17);
 
 			System.out.println();
-			bt.inorderTreeWalk();
+			bt.inOrderTreeWalk();
 		}
 	}
 

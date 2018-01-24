@@ -1,4 +1,4 @@
-package lib.datastructures;
+package lib.datastructures.trees;
 
 public class Node {
 	private int key;

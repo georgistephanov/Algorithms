@@ -1,6 +1,6 @@
-package lib.datastructures;
+package lib.datastructures.trees;
 
-public class BinaryTree {
+public class BinaryTree implements Tree {
 	private Node root;
 
 	public BinaryTree() {}
@@ -9,31 +9,28 @@ public class BinaryTree {
 		root = new Node(key);
 	}
 
-	public Node getRoot() {
-		return root;
+	/* ========== API Methods ========== */
+	/**
+	 * Finds and returns the minimum element in the binary tree
+	 * @return the node of the minimum element
+	 */
+	public Node min() {
+		return minimumElementInSubtree(root);
 	}
 
-	public void setRoot(Node root) {
-		this.root = root;
+	/**
+	 * Finds and returns the maximum element in the binary tree
+	 * @return the node of the maximum element
+	 */
+	public Node max() {
+		return maximumElementInSubtree(root);
 	}
 
 	/**
 	 * Traverse the tree via an in-order tree walk and print its elements to the console
 	 */
-	public void inorderTreeWalk() {
-		inorderTreeWalk(root);
-	}
-
-	/**
-	 * Traverses the tree and prints its elements to the console
-	 * @param node the current node that is being accessed
-	 */
-	private void inorderTreeWalk(Node node) {
-		if ( node != null ) {
-			inorderTreeWalk(node.getLeft());
-			System.out.print(node.getKey() + " ");
-			inorderTreeWalk(node.getRight());
-		}
+	public void inOrderTreeWalk() {
+		inOrderTreeWalk(root);
 	}
 
 	/**
@@ -111,6 +108,17 @@ public class BinaryTree {
 		}
 	}
 
+
+	/* ========== Getters ========== */
+	private Node getRoot() {
+		return root;
+	}
+
+	private void setRoot(Node root) {
+		this.root = root;
+	}
+
+	/* ========== Private methods ========== */
 	/**
 	 * Find the minimum element in a subtree of the binary tree.
 	 * @param n the root node of the subtree
@@ -159,6 +167,18 @@ public class BinaryTree {
 
 		if (substituteSubtree.getParent() == null) {
 			substituteSubtree.setParent(initialSubtree.getParent());
+		}
+	}
+
+	/**
+	 * Traverses the tree and prints its elements to the console
+	 * @param node the current node that is being accessed
+	 */
+	private void inOrderTreeWalk(Node node) {
+		if ( node != null ) {
+			inOrderTreeWalk(node.getLeft());
+			System.out.print(node.getKey() + " ");
+			inOrderTreeWalk(node.getRight());
 		}
 	}
 }
