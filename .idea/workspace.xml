@@ -38,23 +38,17 @@
           <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/BinaryTree.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+                <state relative-caret-position="5280">
+                  <caret line="147" column="56" lean-forward="true" selection-start-line="147" selection-start-column="56" selection-end-line="147" selection-end-column="56" />
                   <folding>
-                    <element signature="e#151#152#0" expanded="true" />
-                    <element signature="e#178#179#0" expanded="true" />
                     <element signature="docComment;method#min#0;class#BinaryTree#0" expanded="false" />
                     <element signature="docComment;method#max#0;class#BinaryTree#0" expanded="false" />
                     <element signature="docComment;method#inOrderTreeWalk#0;class#BinaryTree#0" expanded="false" />
                     <element signature="docComment;method#insert#0;class#BinaryTree#0" expanded="false" />
-                    <element signature="method#insert#0;class#BinaryTree#0" expanded="false" />
+                    <element signature="e#798#828#0" expanded="true" />
                     <element signature="docComment;method#insert#1;class#BinaryTree#0" expanded="false" />
                     <element signature="docComment;method#delete#0;class#BinaryTree#0" expanded="false" />
-                    <element signature="method#delete#0;class#BinaryTree#0" expanded="false" />
-                    <element signature="e#2860#2861#0" expanded="true" />
-                    <element signature="e#2878#2879#0" expanded="true" />
-                    <element signature="e#2914#2915#0" expanded="true" />
-                    <element signature="e#2937#2938#0" expanded="true" />
+                    <element signature="e#1848#1878#0" expanded="true" />
                     <element signature="docComment;method#minimumElementInSubtree#0;class#BinaryTree#0" expanded="false" />
                     <element signature="docComment;method#maximumElementInSubtree#0;class#BinaryTree#0" expanded="false" />
                     <element signature="docComment;method#transplant#0;class#BinaryTree#0" expanded="false" />
@@ -68,7 +62,7 @@
             <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/Node.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1056">
-                  <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+                  <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -91,8 +85,8 @@
           <file leaf-file-name="Tree.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/Tree.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="432">
-                  <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                <state relative-caret-position="96">
+                  <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -127,8 +121,8 @@
         <option value="$PROJECT_DIR$/src/lib/datastructures/Node.java" />
         <option value="$PROJECT_DIR$/src/core/Main.java" />
         <option value="$PROJECT_DIR$/src/lib/datastructures/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/lib/datastructures/trees/Tree.java" />
         <option value="$PROJECT_DIR$/src/lib/datastructures/trees/Node.java" />
+        <option value="$PROJECT_DIR$/src/lib/datastructures/trees/Tree.java" />
         <option value="$PROJECT_DIR$/src/lib/datastructures/trees/BinaryTree.java" />
       </list>
     </option>
@@ -309,20 +303,14 @@
         <state relative-caret-position="1344">
           <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
             <element signature="docComment;method#min#0;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#max#0;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#inOrderTreeWalk#0;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#insert#0;class#BinaryTree#0" expanded="false" />
-            <element signature="method#insert#0;class#BinaryTree#0" expanded="false" />
+            <element signature="e#798#828#0" expanded="true" />
             <element signature="docComment;method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#delete#0;class#BinaryTree#0" expanded="false" />
-            <element signature="method#delete#0;class#BinaryTree#0" expanded="false" />
-            <element signature="e#2860#2861#0" expanded="true" />
-            <element signature="e#2878#2879#0" expanded="true" />
-            <element signature="e#2914#2915#0" expanded="true" />
-            <element signature="e#2937#2938#0" expanded="true" />
+            <element signature="e#1848#1878#0" expanded="true" />
             <element signature="docComment;method#minimumElementInSubtree#0;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#maximumElementInSubtree#0;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#transplant#0;class#BinaryTree#0" expanded="false" />
@@ -428,6 +416,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -436,33 +432,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="5280">
+          <caret line="147" column="56" lean-forward="true" selection-start-line="147" selection-start-column="56" selection-end-line="147" selection-end-column="56" />
           <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
             <element signature="docComment;method#min#0;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#max#0;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#inOrderTreeWalk#0;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#insert#0;class#BinaryTree#0" expanded="false" />
-            <element signature="method#insert#0;class#BinaryTree#0" expanded="false" />
+            <element signature="e#798#828#0" expanded="true" />
             <element signature="docComment;method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#delete#0;class#BinaryTree#0" expanded="false" />
-            <element signature="method#delete#0;class#BinaryTree#0" expanded="false" />
-            <element signature="e#2860#2861#0" expanded="true" />
-            <element signature="e#2878#2879#0" expanded="true" />
-            <element signature="e#2914#2915#0" expanded="true" />
-            <element signature="e#2937#2938#0" expanded="true" />
+            <element signature="e#1848#1878#0" expanded="true" />
             <element signature="docComment;method#minimumElementInSubtree#0;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#maximumElementInSubtree#0;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#transplant#0;class#BinaryTree#0" expanded="false" />

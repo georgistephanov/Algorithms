@@ -1,13 +1,9 @@
 package lib.datastructures.trees;
 
-public class BinaryTree implements Tree {
-	private Node root;
+public class BinaryTree<T extends Comparable<? super T>> implements Tree<T> {
+	private Node<T> root;
 
 	public BinaryTree() {}
-
-	public BinaryTree(int key) {
-		root = new Node(key);
-	}
 
 	/* ========== API Methods ========== */
 	/**
@@ -37,18 +33,21 @@ public class BinaryTree implements Tree {
 	 * Insert a node into the subtree
 	 * @param node to be inserted
 	 */
-	public void insert(Node node) {
-		Node insertionPoint = null;
-		Node n = root;
+	@SuppressWarnings("unchecked")
+	public void insert(Node<T> node) {
+		Node<T> insertionPoint = null;
+		Node<T> n = root;
 
 		// Find the place where the new node should be inserted
 		while (n != null) {
 			insertionPoint = n;
 
-			if (node.getKey() <= n.getKey())
+
+			if ( node.getKey().compareTo(n.getKey()) <= 0 ) {
 				n = n.getLeft();
-			else
+			} else {
 				n = n.getRight();
+			}
 		}
 
 		// Set insertionPoint as the new node's parent
@@ -58,7 +57,8 @@ public class BinaryTree implements Tree {
 		if (insertionPoint == null) {
 			// The tree was empty
 			root = node;
-		} else if (node.getKey() <= insertionPoint.getKey()) {
+
+		} else if ( node.getKey().compareTo(insertionPoint.getKey()) <= 0 ) {
 			// The new node is lesser or equal than insertionPoint
 			insertionPoint.setLeft(node);
 		} else {
@@ -71,14 +71,15 @@ public class BinaryTree implements Tree {
 	 * Create a new node with a given value and insert it into the tree
 	 * @param key of the node
 	 */
-	public void insert(int key) {
-		insert(new Node(key));
+	public void insert(T key) {
+		insert(new Node<>(key));
 	}
 
 	/**
 	 * Delete a node from the binary tree
 	 * @param node to be deleted
 	 */
+	@SuppressWarnings("unchecked")
 	public void delete(Node node) {
 		if (node.getLeft() == null) {
 			// Case 1:
@@ -106,16 +107,6 @@ public class BinaryTree implements Tree {
 			min.setLeft(node.getLeft());
 			min.getLeft().setParent(min);
 		}
-	}
-
-
-	/* ========== Getters ========== */
-	private Node getRoot() {
-		return root;
-	}
-
-	private void setRoot(Node root) {
-		this.root = root;
 	}
 
 	/* ========== Private methods ========== */
@@ -154,9 +145,9 @@ public class BinaryTree implements Tree {
  	 * @param initialSubtree root node of the initial subtree
 	 * @param substituteSubtree root node of the substitute subtree
 	 */
-	private void transplant(Node initialSubtree, Node substituteSubtree) {
+	private void transplant(Node initialSubtree, Node<T> substituteSubtree) {
 		if (initialSubtree.getParent() == null) {
-			setRoot(substituteSubtree);
+			root = substituteSubtree;
 		} else if (initialSubtree == initialSubtree.getParent().getLeft()) {
 			// If the initialSubtree is a leftSubtree
 			initialSubtree.getParent().setLeft(substituteSubtree);
