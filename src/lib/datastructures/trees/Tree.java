@@ -5,7 +5,7 @@ import java.util.List;
 public interface Tree<T> {
 	Node min();
 	Node max();
-	void insert(Node<T> node);
+	void insert(T key);
 	void delete(Node node);
 	List<T> inOrderTreeWalk();
 }
