@@ -1,7 +1,8 @@
 package lib.algorithms;
 
 public abstract class QuickSort {
-	public static void sort(int A[], int start, int end) {
+
+	public static <T extends Comparable<? super T>> void sort(T A[], int start, int end) {
 		if (start < end) {
 			int q = Partition(A, start, end);
 			sort(A, start, q - 1);
@@ -9,20 +10,20 @@ public abstract class QuickSort {
 		}
 	}
 
-	private static int Partition(int A[], int start, int end) {
+	private static <T extends Comparable<? super T>> int Partition(T A[], int start, int end) {
 		int i = start - 1;
 
 		for (int j = start; j < end; j++) {
-			if (A[j] < A[end]) {
+			if (A[j].compareTo(A[end]) < 0) {
 				i++;
-				int temp = A[i];
+				T temp = A[i];
 				A[i] = A[j];
 				A[j] = temp;
 			}
 		}
 
 		i++;
-		int temp = A[i];
+		T temp = A[i];
 		A[i] = A[end];
 		A[end] = temp;
 

@@ -25,7 +25,7 @@ public class Main {
 
 		// QuickSort
 		{
-			int arr2[] = {2, 8, 7, 1, 9, 11, 3, 10, 5, 12, 6, 4};
+			Integer [] arr2 = {2, 8, 7, 1, 9, 11, 3, 10, 5, 12, 6, 4};
 
 			System.out.println("Array 2 before sorting it with quicksort");
 			printArr(arr2);
@@ -54,7 +54,7 @@ public class Main {
 		}
 	}
 
-	private static void printArr(int a[]) {
+	private static void printArr(Integer a[]) {
 		for (int i : a) {
 			System.out.print(i + ", ");
 		}

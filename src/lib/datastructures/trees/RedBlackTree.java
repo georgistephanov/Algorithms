@@ -1,5 +1,7 @@
 package lib.datastructures.trees;
 
+import java.util.List;
+
 public class RedBlackTree<T extends Comparable<? super T>> extends AbstractTree<T> {
 	private final Node<T> nil = new Node<T>(null);
 
@@ -10,6 +12,16 @@ public class RedBlackTree<T extends Comparable<? super T>> extends AbstractTree<
 	@Override
 	public void insert(T key) {
 
+	}
+
+	@Override
+	public void delete(Node node) {
+
+	}
+
+	@Override
+	public List<T> inOrderTreeWalk() {
+		return null;
 	}
 
 	/**
@@ -41,7 +53,33 @@ public class RedBlackTree<T extends Comparable<? super T>> extends AbstractTree<
 		node.setParent(initialRightChild);
 	}
 
+	/**
+	 * This method performs a right rotation around a node. The node around which is
+	 * being rotated becomes its parent's parent. The right child of the node becomes
+	 * its initial parent's left child in order to preserve the tree's binary properties.
+	 * @param node around which to rotate
+	 */
 	private void rightRotate(Node node) {
-		
+		if ( node == null || !(node.getParent().equals(nil)) )
+			return;
+
+		Node initialNodeParent = node.getParent();
+		initialNodeParent.setLeft(node.getRight());
+
+		if ( node.getRight() != nil ) {
+			node.getRight().setParent(initialNodeParent);
+		}
+		node.setParent(initialNodeParent.getParent());
+
+		if ( initialNodeParent.getParent() == nil ) {
+			root = node;
+		} else if ( initialNodeParent == initialNodeParent.getParent().getLeft() ) {
+			initialNodeParent.getParent().setLeft(node);
+		} else {
+			initialNodeParent.getParent().setRight(node);
+		}
+
+		node.setRight(initialNodeParent);
+		initialNodeParent.setParent(node);
 	}
 }
