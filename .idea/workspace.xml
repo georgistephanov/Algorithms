@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f548112-016b-4506-98b0-fd601846315b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/Algorithms/BinarySearchTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/Algorithms/BinaryTreeTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/lib/datastructures/trees/RedBlackTree.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/lib/datastructures/trees/RedBlackTree.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/Main.java" afterPath="$PROJECT_DIR$/src/core/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/algorithms/QuickSort.java" afterPath="$PROJECT_DIR$/src/lib/algorithms/QuickSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/datastructures/trees/RedBlackTree.java" afterPath="$PROJECT_DIR$/src/lib/datastructures/trees/RedBlackTree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/BinarySearchTest.java" afterPath="$PROJECT_DIR$/tests/algorithms/BinarySearchTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/BinaryTreeTest.java" afterPath="$PROJECT_DIR$/tests/datastructures/trees/BinaryTreeTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +30,8 @@
           <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/core/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="445">
-                  <caret line="56" column="47" lean-forward="true" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+                <state relative-caret-position="2448">
+                  <caret line="56" column="47" lean-forward="false" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
                   <folding>
                     <element signature="e#0#1407#0" expanded="true" />
                     <element signature="imports" expanded="true" />
@@ -41,7 +43,7 @@
           <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/BinaryTree.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="877">
+                <state relative-caret-position="1248">
                   <caret line="108" column="34" lean-forward="false" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -53,7 +55,6 @@
                     <element signature="docComment;method#insert#1;class#BinaryTree#0" expanded="false" />
                     <element signature="method#insert#1;class#BinaryTree#0" expanded="false" />
                     <element signature="docComment;method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
-                    <element signature="e#2876#2906#0" expanded="true" />
                     <element signature="method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
                   </folding>
                 </state>
@@ -66,8 +67,6 @@
                 <state relative-caret-position="728">
                   <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="11" />
                   <folding>
-                    <element signature="e#384#385#0" expanded="true" />
-                    <element signature="e#402#403#0" expanded="true" />
                     <element signature="docComment;method#leftRotate#0;class#RedBlackTree#0" expanded="false" />
                     <element signature="docComment;method#rightRotate#0;class#RedBlackTree#0" expanded="false" />
                   </folding>
@@ -82,7 +81,7 @@
           <file leaf-file-name="AbstractTree.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/AbstractTree.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1125">
+                <state relative-caret-position="0">
                   <caret line="56" column="12" lean-forward="false" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
                   <folding>
                     <element signature="docComment;method#min#0;class#AbstractTree#0" expanded="false" />
@@ -97,34 +96,33 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BinarySearch.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="BinarySearch.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/lib/algorithms/BinarySearch.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-240">
+                <state relative-caret-position="48">
                   <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Stack.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/lib/datastructures/basic/Stack.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2832">
+                  <caret line="59" column="19" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
                   <folding>
-                    <element signature="e#345#375#0" expanded="true" />
+                    <element signature="e#197#198#0" expanded="true" />
+                    <element signature="e#222#223#0" expanded="true" />
+                    <element signature="e#226#256#0" expanded="true" />
+                    <element signature="e#281#282#0" expanded="true" />
+                    <element signature="e#321#322#0" expanded="true" />
+                    <element signature="e#859#889#0" expanded="true" />
+                    <element signature="e#1042#1043#0" expanded="true" />
+                    <element signature="e#1074#1075#0" expanded="true" />
+                    <element signature="e#1096#1097#0" expanded="true" />
+                    <element signature="e#1123#1124#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BinarySearchTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tests/BinarySearchTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="457">
-                  <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/lib/algorithms/QuickSort.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="192">
-                  <caret line="4" column="87" lean-forward="false" selection-start-line="4" selection-start-column="84" selection-end-line="4" selection-end-column="87" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -171,6 +169,10 @@
         <option value="$PROJECT_DIR$/tests/BinarySearchTest.java" />
         <option value="$PROJECT_DIR$/src/lib/algorithms/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/lib/datastructures/trees/RedBlackTree.java" />
+        <option value="$PROJECT_DIR$/tests/algorithms/BinarySearchTest.java" />
+        <option value="$PROJECT_DIR$/tests/datastructures/trees/BinaryTreeTest.java" />
+        <option value="$PROJECT_DIR$/src/lib/datastructures/basic/Stack.java" />
+        <option value="$PROJECT_DIR$/tests/datastructures/basic/StackTest.java" />
       </list>
     </option>
   </component>
@@ -224,8 +226,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -263,12 +265,31 @@
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="trees" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -296,6 +317,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="datastructures.basic" />
       <recent name="" />
       <recent name="lib.datastructures.trees" />
       <recent name="test.trees" />
@@ -316,13 +338,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BinarySearchTest">
+  <component name="RunManager" selected="JUnit.StackTest">
     <configuration name="BinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BinarySearchTest" />
+      <option name="PACKAGE_NAME" value="algorithms" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.BinarySearchTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -340,8 +362,8 @@
       <module name="Algorithms" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BinaryTreeTest" />
+      <option name="PACKAGE_NAME" value="datastructures.trees" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.trees.BinaryTreeTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -371,6 +393,25 @@
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
+    <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="datastructures.basic" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.basic.StackTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -385,16 +426,18 @@
       <module name="" />
       <envs />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.BinaryTreeTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.BinarySearchTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StackTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BinarySearchTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BinaryTreeTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StackTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BinarySearchTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BinaryTreeTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -402,9 +445,6 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchTest - 2018.01.26 at 19h 08m 10s.xml">
-      <configuration name="BinarySearchTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinarySearchTest - 2018.01.26 at 19h 09m 16s.xml">
       <configuration name="BinarySearchTest" configurationId="JUnit" />
     </history-entry>
@@ -432,6 +472,9 @@
     <history-entry file="BinaryTreeTest - 2018.01.25 at 18h 18m 21s.xml">
       <configuration name="BinaryTreeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StackTest - 2018.01.27 at 14h 21m 56s.xml">
+      <configuration name="StackTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-14" y="-14" width="3868" height="2098" extended-state="6" />
@@ -442,7 +485,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16601233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25350532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -475,6 +518,87 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/core/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2448">
+          <caret line="56" column="47" lean-forward="false" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#1407#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="108" column="34" lean-forward="false" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#insert#0;class#BinaryTree#0" expanded="false" />
+            <element signature="docComment;method#delete#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#delete#0;class#BinaryTree#0" expanded="false" />
+            <element signature="docComment;method#inOrderTreeWalk#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#inOrderTreeWalk#0;class#BinaryTree#0" expanded="false" />
+            <element signature="docComment;method#insert#1;class#BinaryTree#0" expanded="false" />
+            <element signature="method#insert#1;class#BinaryTree#0" expanded="false" />
+            <element signature="docComment;method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
+            <element signature="method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/AbstractTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="56" column="12" lean-forward="false" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+          <folding>
+            <element signature="docComment;method#min#0;class#AbstractTree#0" expanded="false" />
+            <element signature="docComment;method#max#0;class#AbstractTree#0" expanded="false" />
+            <element signature="docComment;method#minimumElementInSubtree#0;class#AbstractTree#0" expanded="false" />
+            <element signature="docComment;method#maximumElementInSubtree#0;class#AbstractTree#0" expanded="false" />
+            <element signature="method#maximumElementInSubtree#0;class#AbstractTree#0" expanded="false" />
+            <element signature="docComment;method#transplant#0;class#AbstractTree#0" expanded="false" />
+            <element signature="method#transplant#0;class#AbstractTree#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/RedBlackTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="11" />
+          <folding>
+            <element signature="docComment;method#leftRotate#0;class#RedBlackTree#0" expanded="false" />
+            <element signature="docComment;method#rightRotate#0;class#RedBlackTree#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/algorithms/BinarySearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/algorithms/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="4" column="87" lean-forward="false" selection-start-line="4" selection-start-column="84" selection-end-line="4" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/algorithms/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2256">
           <caret line="52" column="33" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="52" selection-end-column="33" />
           <folding>
@@ -498,7 +622,6 @@
             <element signature="docComment;method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
-            <element signature="e#2876#2906#0" expanded="true" />
             <element signature="method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
           </folding>
         </state>
@@ -509,8 +632,6 @@
         <state relative-caret-position="1776">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
             <element signature="docComment;method#leftRotate#0;class#RedBlackTree#0" expanded="false" />
             <element signature="docComment;method#rightRotate#0;class#RedBlackTree#0" expanded="false" />
           </folding>
@@ -558,7 +679,6 @@
             <element signature="docComment;method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
-            <element signature="e#2876#2906#0" expanded="true" />
             <element signature="method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
           </folding>
         </state>
@@ -569,8 +689,6 @@
         <state relative-caret-position="1776">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
             <element signature="docComment;method#leftRotate#0;class#RedBlackTree#0" expanded="false" />
             <element signature="docComment;method#rightRotate#0;class#RedBlackTree#0" expanded="false" />
           </folding>
@@ -618,7 +736,6 @@
             <element signature="docComment;method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
-            <element signature="e#2876#2906#0" expanded="true" />
             <element signature="method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
           </folding>
         </state>
@@ -635,12 +752,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/BinaryTreeTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/datastructures/trees/BinaryTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1680">
           <caret line="39" column="69" lean-forward="true" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -681,7 +798,6 @@
             <element signature="docComment;method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
-            <element signature="e#2876#2906#0" expanded="true" />
             <element signature="method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
           </folding>
         </state>
@@ -775,16 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/BinaryTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1557">
-          <caret line="39" column="69" lean-forward="false" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -795,8 +901,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/core/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="56" column="47" lean-forward="true" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+        <state relative-caret-position="2448">
+          <caret line="56" column="47" lean-forward="false" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
           <folding>
             <element signature="e#0#1407#0" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -814,7 +920,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/AbstractTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
+        <state relative-caret-position="0">
           <caret line="56" column="12" lean-forward="false" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
           <folding>
             <element signature="docComment;method#min#0;class#AbstractTree#0" expanded="false" />
@@ -828,27 +934,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/BinarySearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/algorithms/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#345#375#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="877">
+        <state relative-caret-position="1248">
           <caret line="108" column="34" lean-forward="false" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -860,7 +948,6 @@
             <element signature="docComment;method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
-            <element signature="e#2876#2906#0" expanded="true" />
             <element signature="method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
           </folding>
         </state>
@@ -871,10 +958,61 @@
         <state relative-caret-position="728">
           <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="11" />
           <folding>
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
             <element signature="docComment;method#leftRotate#0;class#RedBlackTree#0" expanded="false" />
             <element signature="docComment;method#rightRotate#0;class#RedBlackTree#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/algorithms/BinarySearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/datastructures/trees/BinaryTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/algorithms/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/datastructures/basic/StackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="72" column="5" lean-forward="false" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/basic/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2832">
+          <caret line="59" column="19" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+          <folding>
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#226#256#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#859#889#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
           </folding>
         </state>
       </provider>

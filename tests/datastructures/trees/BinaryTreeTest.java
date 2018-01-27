@@ -1,3 +1,5 @@
+package datastructures.trees;
+
 import lib.datastructures.trees.BinaryTree;
 import org.junit.Assert;
 import org.junit.Test;

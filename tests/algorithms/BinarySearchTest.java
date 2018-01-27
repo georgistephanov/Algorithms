@@ -1,3 +1,5 @@
+package algorithms;
+
 import lib.algorithms.BinarySearch;
 import org.junit.Test;
 
