@@ -2,7 +2,7 @@ package lib.datastructures.basic;
 
 import java.util.Arrays;
 
-public class Stack<T> {
+public final class Stack<T> {
 	private static int DEFAULT_SIZE = 16;
 	private T [] elements;
 	private int numOfElements = 0;

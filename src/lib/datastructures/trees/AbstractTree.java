@@ -3,14 +3,14 @@ package lib.datastructures.trees;
 import java.util.List;
 
 public abstract class AbstractTree<T> implements Tree<T> {
-	Node root;
+	TreeNode root;
 
 	/**
 	 * Finds and returns the minimum element in the tree
 	 * @return the node of the minimum element
 	 */
 	@Override
-	public Node min() {
+	public TreeNode min() {
 		return minimumElementInSubtree(root);
 	}
 
@@ -19,13 +19,13 @@ public abstract class AbstractTree<T> implements Tree<T> {
 	 * @return the node of the maximum element
 	 */
 	@Override
-	public Node max() { return maximumElementInSubtree(root); }
+	public TreeNode max() { return maximumElementInSubtree(root); }
 
 	@Override
 	public abstract void insert(T key);
 
 	@Override
-	public abstract void delete(Node node);
+	public abstract void delete(TreeNode node);
 
 	@Override
 	public abstract List<T> inOrderTreeWalk();
@@ -35,12 +35,12 @@ public abstract class AbstractTree<T> implements Tree<T> {
 	 * @param n the root node of the subtree
 	 * @return the minimum element
 	 */
-	Node minimumElementInSubtree(final Node n) {
+	TreeNode minimumElementInSubtree(final TreeNode n) {
 		if (n == null) {
 			return null;
 		}
 
-		Node node = n;
+		TreeNode node = n;
 
 		while (node.getLeft() != null) {
 			node = node.getLeft();
@@ -54,12 +54,12 @@ public abstract class AbstractTree<T> implements Tree<T> {
 	 * @param n the root of the subtree
 	 * @return the maximum element
 	 */
-	private Node maximumElementInSubtree(final Node n) {
+	private TreeNode maximumElementInSubtree(final TreeNode n) {
 		if (n == null) {
 			return null;
 		}
 
-		Node node = n;
+		TreeNode node = n;
 
 		while (node.getRight() != null) {
 			node = node.getRight();
@@ -73,7 +73,7 @@ public abstract class AbstractTree<T> implements Tree<T> {
 	 * @param initialSubtree root node of the initial subtree
 	 * @param substituteSubtree root node of the substitute subtree
 	 */
-	void transplant(Node initialSubtree, Node<T> substituteSubtree) {
+	void transplant(TreeNode initialSubtree, TreeNode<T> substituteSubtree) {
 		if (initialSubtree.getParent() == null) {
 			root = substituteSubtree;
 		} else if (initialSubtree == initialSubtree.getParent().getLeft()) {

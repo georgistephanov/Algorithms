@@ -1,17 +1,17 @@
 package lib.datastructures.trees;
 
-public class Node<T> {
-	private T key;
-	private Node parent;
-	private Node left;
-	private Node right;
+public final class TreeNode<T> {
+	private final T key;
+	private TreeNode parent;
+	private TreeNode left;
+	private TreeNode right;
 	private NodeColor color;
 
 	public enum NodeColor {
 		RED, BLACK
 	}
 
-	Node(T key) {
+	TreeNode(T key) {
 		this.key = key;
 		left = null;
 		right = null;
@@ -21,31 +21,27 @@ public class Node<T> {
 		return key;
 	}
 
-	void setKey(T key) {
-		this.key = key;
-	}
-
-	Node getParent() {
+	TreeNode getParent() {
 		return parent;
 	}
 
-	void setParent(Node parent) {
+	void setParent(TreeNode parent) {
 		this.parent = parent;
 	}
 
-	Node getLeft() {
+	TreeNode getLeft() {
 		return left;
 	}
 
-	void setLeft(Node left) {
+	void setLeft(TreeNode left) {
 		this.left = left;
 	}
 
-	Node getRight() {
+	TreeNode getRight() {
 		return right;
 	}
 
-	void setRight(Node right) {
+	void setRight(TreeNode right) {
 		this.right = right;
 	}
 

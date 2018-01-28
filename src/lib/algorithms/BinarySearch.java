@@ -1,6 +1,7 @@
 package lib.algorithms;
 
-public class BinarySearch {
+public final class BinarySearch {
+	private BinarySearch() {}
 
 	/**
 	 * Iterative implementation of binary search on a generic array.
@@ -59,5 +60,4 @@ public class BinarySearch {
 			return searchRecursively(array, find, mid + 1, high, true);
 		}
 	}
-
 }

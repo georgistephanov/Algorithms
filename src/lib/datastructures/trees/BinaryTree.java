@@ -3,7 +3,7 @@ package lib.datastructures.trees;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BinaryTree<T extends Comparable<? super T>> extends AbstractTree<T> {
+public final class BinaryTree<T extends Comparable<? super T>> extends AbstractTree<T> {
 	public BinaryTree() {}
 
 	/* ========== API Methods ========== */
@@ -12,7 +12,7 @@ public class BinaryTree<T extends Comparable<? super T>> extends AbstractTree<T>
 	 * @param key of the node
 	 */
 	public void insert(T key) {
-		insert(new Node<>(key));
+		insert(new TreeNode<>(key));
 	}
 
 	/**
@@ -20,7 +20,7 @@ public class BinaryTree<T extends Comparable<? super T>> extends AbstractTree<T>
 	 * @param node to be deleted
 	 */
 	@SuppressWarnings("unchecked")
-	public void delete(Node node) {
+	public void delete(TreeNode node) {
 		if (node == null)
 			return;
 
@@ -36,7 +36,7 @@ public class BinaryTree<T extends Comparable<? super T>> extends AbstractTree<T>
 			// Case 3:
 			// The node has two children. Find its minimum child in the right subtree of the node and put this minimum
 			// child at the node's position
-			Node min = minimumElementInSubtree(node.getRight());
+			TreeNode min = minimumElementInSubtree(node.getRight());
 
 			// If the minimum node lies within the node's right subtree, replace min with its own right child
 			if (min.getParent() != node) {
@@ -69,9 +69,9 @@ public class BinaryTree<T extends Comparable<? super T>> extends AbstractTree<T>
 	 * @param node to be inserted
 	 */
 	@SuppressWarnings("unchecked")
-	private void insert(Node<T> node) {
-		Node<T> insertionPoint = null;
-		Node<T> n = root;
+	private void insert(TreeNode<T> node) {
+		TreeNode<T> insertionPoint = null;
+		TreeNode<T> n = root;
 
 		// Find the place where the new node should be inserted
 		while (n != null) {
@@ -107,7 +107,7 @@ public class BinaryTree<T extends Comparable<? super T>> extends AbstractTree<T>
 	 * @param node the current node that is being accessed
 	 */
 	@SuppressWarnings("unchecked")
-	private void inOrderTreeWalk(List<T> array, Node<T> node) {
+	private void inOrderTreeWalk(List<T> array, TreeNode<T> node) {
 		if ( node != null ) {
 			inOrderTreeWalk(array, node.getLeft());
 			array.add(node.getKey());

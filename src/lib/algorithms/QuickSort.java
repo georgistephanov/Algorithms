@@ -1,6 +1,7 @@
 package lib.algorithms;
 
-public abstract class QuickSort {
+public final class QuickSort {
+	private QuickSort() {}
 
 	public static <T extends Comparable<? super T>> void sort(T A[], int start, int end) {
 		if (start < end) {

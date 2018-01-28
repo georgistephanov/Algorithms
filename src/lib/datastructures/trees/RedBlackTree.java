@@ -2,8 +2,8 @@ package lib.datastructures.trees;
 
 import java.util.List;
 
-public class RedBlackTree<T extends Comparable<? super T>> extends AbstractTree<T> {
-	private final Node<T> nil = new Node<T>(null);
+public final class RedBlackTree<T extends Comparable<? super T>> extends AbstractTree<T> {
+	private final TreeNode<T> nil = new TreeNode<T>(null);
 
 	public RedBlackTree() {
 		root.setParent(nil);
@@ -15,7 +15,7 @@ public class RedBlackTree<T extends Comparable<? super T>> extends AbstractTree<
 	}
 
 	@Override
-	public void delete(Node node) {
+	public void delete(TreeNode node) {
 
 	}
 
@@ -30,11 +30,11 @@ public class RedBlackTree<T extends Comparable<? super T>> extends AbstractTree<
 	 * of the node becomes the node's right child in order to preserve the tree's binary properties.
 	 * @param node around which to rotate
 	 */
-	private void leftRotate(Node node) {
+	private void leftRotate(TreeNode node) {
 		if ( node == null || !(node.getRight().equals(nil)) )
 			return;
 
-		Node initialRightChild = node.getRight() != null ? node.getRight() : new Node<T>(null);
+		TreeNode initialRightChild = node.getRight() != null ? node.getRight() : new TreeNode<T>(null);
 		node.setRight(initialRightChild.getLeft());
 
 		if (initialRightChild.getLeft() != nil) {
@@ -59,11 +59,11 @@ public class RedBlackTree<T extends Comparable<? super T>> extends AbstractTree<
 	 * its initial parent's left child in order to preserve the tree's binary properties.
 	 * @param node around which to rotate
 	 */
-	private void rightRotate(Node node) {
+	private void rightRotate(TreeNode node) {
 		if ( node == null || !(node.getParent().equals(nil)) )
 			return;
 
-		Node initialNodeParent = node.getParent();
+		TreeNode initialNodeParent = node.getParent();
 		initialNodeParent.setLeft(node.getRight());
 
 		if ( node.getRight() != nil ) {
