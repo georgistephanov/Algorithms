@@ -1,6 +1,6 @@
 package lib.datastructures.basic;
 
-public class LinkedList<T> {
+public final class LinkedList<T> {
 	private Node<T> head;
 	private int size = 0;
 
@@ -43,7 +43,7 @@ public class LinkedList<T> {
 		return new Node<>(null);
 	}
 
-	public void addFirst(T key) {
+	public void insertFirst(T key) {
 		Node<T> newNode = new Node<>(key);
 
 		newNode.setNext(head.getNext());
@@ -52,7 +52,7 @@ public class LinkedList<T> {
 		size++;
 	}
 
-	public void addLast(T key) {
+	public void insertLast(T key) {
 		Node<T> temp = head;
 		while (temp.getNext() != null) {
 			temp = temp.getNext();
@@ -64,14 +64,14 @@ public class LinkedList<T> {
 		size++;
 	}
 
-	public void deleteFirst() {
+	public void removeFirst() {
 		if ( size > 0 ) {
 			head = head.getNext();
 			size--;
 		}
 	}
 
-	public void deleteLast() {
+	public void removeLast() {
 		Node<T> temp = head;
 
 		if (size > 1) {

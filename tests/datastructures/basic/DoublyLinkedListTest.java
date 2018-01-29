@@ -1,12 +1,12 @@
 package datastructures.basic;
 
-import lib.datastructures.basic.LinkedList;
+import lib.datastructures.basic.DoublyLinkedList;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class LinkedListTest {
-	private LinkedList<Integer> list = new LinkedList<>();
+public class DoublyLinkedListTest {
+	private DoublyLinkedList<Integer> list = new DoublyLinkedList<>();
 
 	@Test
 	public void getFirst() throws Exception {
@@ -32,6 +32,7 @@ public class LinkedListTest {
 
 	@Test
 	public void at() throws Exception {
+		assertTrue(list.at(0).getKey() == null);
 		assertTrue(list.at(1).getKey() == null);
 
 		list.insertFirst(5);
