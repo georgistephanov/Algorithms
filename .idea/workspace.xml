@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f548112-016b-4506-98b0-fd601846315b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Algorithms/lib/algorithms/Sort.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Algorithms/lib/datastructures/basic/SinglyLinkedList.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/Algorithms/algorithms/SortTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/algorithms/Sort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/datastructures/basic/SinglyLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/algorithms/SortTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algorithms/lib/algorithms/QuickSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/algorithms/QuickSort.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/core/Main.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/core/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/lib/algorithms/BinarySearch.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/lib/algorithms/BinarySearch.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/lib/datastructures/basic/DoublyLinkedList.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/lib/datastructures/basic/DoublyLinkedList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/lib/datastructures/basic/HashTable.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/lib/datastructures/basic/HashTable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/lib/datastructures/basic/LinkedList.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/lib/datastructures/basic/LinkedList.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/Main.java" afterPath="$PROJECT_DIR$/src/core/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/algorithms/BinarySearch.java" afterPath="$PROJECT_DIR$/src/lib/algorithms/BinarySearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/datastructures/basic/DoublyLinkedList.java" afterPath="$PROJECT_DIR$/src/lib/datastructures/basic/DoublyLinkedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/datastructures/basic/HashTable.java" afterPath="$PROJECT_DIR$/src/lib/datastructures/basic/HashTable.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/datastructures/basic/LinkedList.java" afterPath="$PROJECT_DIR$/src/lib/datastructures/basic/LinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/datastructures/basic/LinkedListTest.java" afterPath="$PROJECT_DIR$/tests/datastructures/basic/LinkedListTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/out/test/Algorithms/datastructures/basic/LinkedListTest.class" afterPath="$PROJECT_DIR$/out/test/Algorithms/datastructures/basic/SinglyLinkedListTest.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/datastructures/basic/LinkedListTest.java" afterPath="$PROJECT_DIR$/tests/datastructures/basic/SinglyLinkedListTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,71 +39,49 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.44233057">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-          <file leaf-file-name="HashTable.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/lib/datastructures/basic/HashTable.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="912">
-                  <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#593#594#0" expanded="true" />
-                    <element signature="e#632#633#0" expanded="true" />
-                    <element signature="e#662#663#0" expanded="true" />
-                    <element signature="e#701#702#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-          <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/lib/datastructures/basic/LinkedList.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="528">
-                  <caret line="73" column="26" lean-forward="false" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="HashTableTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tests/lib/datastructures/basic/HashTableTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="432">
-                  <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="LinkedListTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tests/datastructures/basic/LinkedListTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="384">
-                  <caret line="47" column="25" lean-forward="false" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lib/algorithms/Sort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+              <folding>
+                <element signature="e#72#102#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/algorithms/SortTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="830">
+              <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/core/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#1100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
@@ -110,7 +106,6 @@
         <option value="$PROJECT_DIR$/tests/BinaryTreeTest.java" />
         <option value="$PROJECT_DIR$/src/lib/datastructures/trees/Tree.java" />
         <option value="$PROJECT_DIR$/src/lib/algorithms/BinarySort.java" />
-        <option value="$PROJECT_DIR$/src/core/Main.java" />
         <option value="$PROJECT_DIR$/tests/BinarySearchTest.java" />
         <option value="$PROJECT_DIR$/tests/algorithms/BinarySearchTest.java" />
         <option value="$PROJECT_DIR$/tests/datastructures/trees/BinaryTreeTest.java" />
@@ -121,15 +116,19 @@
         <option value="$PROJECT_DIR$/src/lib/datastructures/trees/AbstractTree.java" />
         <option value="$PROJECT_DIR$/src/lib/datastructures/trees/RedBlackTree.java" />
         <option value="$PROJECT_DIR$/src/lib/datastructures/trees/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/lib/algorithms/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/lib/algorithms/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/lib/datastructures/basic/Node.java" />
         <option value="$PROJECT_DIR$/tests/datastructures/basic/LinkedListTest.java" />
         <option value="$PROJECT_DIR$/tests/datastructures/basic/DoublyLinkedListTest.java" />
-        <option value="$PROJECT_DIR$/src/lib/datastructures/basic/DoublyLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/lib/datastructures/basic/LinkedList.java" />
-        <option value="$PROJECT_DIR$/src/lib/datastructures/basic/HashTable.java" />
         <option value="$PROJECT_DIR$/tests/lib/datastructures/basic/HashTableTest.java" />
+        <option value="$PROJECT_DIR$/src/lib/datastructures/basic/HashTable.java" />
+        <option value="$PROJECT_DIR$/src/lib/datastructures/basic/SinglyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/lib/datastructures/basic/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/lib/datastructures/basic/DoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/lib/algorithms/QuickSort.java" />
+        <option value="$PROJECT_DIR$/tests/algorithms/SortTest.java" />
+        <option value="$PROJECT_DIR$/src/core/Main.java" />
+        <option value="$PROJECT_DIR$/src/lib/algorithms/Sort.java" />
       </list>
     </option>
   </component>
@@ -185,6 +184,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,7 +276,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,11 +289,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="algorithms" />
       <recent name="lib.datastructures.basic" />
       <recent name="datastructures.basic" />
       <recent name="" />
       <recent name="lib.datastructures.trees" />
-      <recent name="test.trees" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -312,26 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HashTableTest">
-    <configuration name="BinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="algorithms" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.BinarySearchTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="JUnit.SortTest">
     <configuration name="DoublyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -370,12 +350,31 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="datastructures.basic" />
-      <option name="MAIN_CLASS_NAME" value="datastructures.basic.LinkedListTest" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.basic.SinglyLinkedListTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="algorithms" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.SortTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -423,19 +422,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BinarySearchTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.StackTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LinkedListTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DoublyLinkedListTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.HashTableTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.StackTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SinglyLinkedListTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DoublyLinkedListTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.HashTableTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SortTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.HashTableTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DoublyLinkedListTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LinkedListTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.StackTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BinarySearchTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SortTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SinglyLinkedListTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.HashTableTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DoublyLinkedListTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.StackTest" />
       </list>
     </recent_temporary>
   </component>
@@ -443,35 +442,35 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="DoublyLinkedListTest - 2018.01.29 at 13h 14m 35s.xml">
-      <configuration name="DoublyLinkedListTest" configurationId="JUnit" />
+    <history-entry file="SortTest - 2018.01.30 at 15h 45m 02s.xml">
+      <configuration name="SortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashTableTest - 2018.01.29 at 13h 44m 53s.xml">
-      <configuration name="HashTableTest" configurationId="JUnit" />
+    <history-entry file="SortTest - 2018.01.30 at 15h 46m 49s.xml">
+      <configuration name="SortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashTableTest - 2018.01.29 at 13h 47m 33s.xml">
-      <configuration name="HashTableTest" configurationId="JUnit" />
+    <history-entry file="SortTest - 2018.01.30 at 15h 48m 44s.xml">
+      <configuration name="SortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashTableTest - 2018.01.29 at 13h 49m 05s.xml">
-      <configuration name="HashTableTest" configurationId="JUnit" />
+    <history-entry file="SortTest - 2018.01.30 at 15h 49m 44s.xml">
+      <configuration name="SortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashTableTest - 2018.01.29 at 13h 51m 17s.xml">
-      <configuration name="HashTableTest" configurationId="JUnit" />
+    <history-entry file="SortTest - 2018.01.30 at 15h 55m 30s.xml">
+      <configuration name="SortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashTableTest - 2018.01.29 at 13h 51m 31s.xml">
-      <configuration name="HashTableTest" configurationId="JUnit" />
+    <history-entry file="SortTest - 2018.01.30 at 15h 56m 04s.xml">
+      <configuration name="SortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashTableTest - 2018.01.29 at 13h 51m 44s.xml">
-      <configuration name="HashTableTest" configurationId="JUnit" />
+    <history-entry file="SortTest - 2018.01.30 at 15h 57m 20s.xml">
+      <configuration name="SortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashTableTest - 2018.01.29 at 13h 53m 45s.xml">
-      <configuration name="HashTableTest" configurationId="JUnit" />
+    <history-entry file="SortTest - 2018.01.30 at 15h 57m 38s.xml">
+      <configuration name="SortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashTableTest - 2018.01.29 at 13h 54m 43s.xml">
-      <configuration name="HashTableTest" configurationId="JUnit" />
+    <history-entry file="SortTest - 2018.01.30 at 16h 00m 39s.xml">
+      <configuration name="SortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HashTableTest - 2018.01.29 at 13h 55m 02s.xml">
-      <configuration name="HashTableTest" configurationId="JUnit" />
+    <history-entry file="SortTest - 2018.01.30 at 16h 00m 58s.xml">
+      <configuration name="SortTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -483,11 +482,12 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21817163" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3780146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.103125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.103125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39988783" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -497,8 +497,29 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979912" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978126" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3780146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.103125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39988783" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -514,42 +535,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="108" column="34" lean-forward="false" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#insert#0;class#BinaryTree#0" expanded="false" />
-            <element signature="docComment;method#delete#0;class#BinaryTree#0" expanded="false" />
-            <element signature="method#delete#0;class#BinaryTree#0" expanded="false" />
-            <element signature="docComment;method#inOrderTreeWalk#0;class#BinaryTree#0" expanded="false" />
-            <element signature="method#inOrderTreeWalk#0;class#BinaryTree#0" expanded="false" />
-            <element signature="docComment;method#insert#1;class#BinaryTree#0" expanded="false" />
-            <element signature="method#insert#1;class#BinaryTree#0" expanded="false" />
-            <element signature="docComment;method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
-            <element signature="e#2906#2936#0" expanded="true" />
-            <element signature="method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/AbstractTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="56" column="12" lean-forward="false" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
-          <folding>
-            <element signature="docComment;method#min#0;class#AbstractTree#0" expanded="false" />
-            <element signature="docComment;method#max#0;class#AbstractTree#0" expanded="false" />
-            <element signature="docComment;method#minimumElementInSubtree#0;class#AbstractTree#0" expanded="false" />
-            <element signature="docComment;method#maximumElementInSubtree#0;class#AbstractTree#0" expanded="false" />
-            <element signature="method#maximumElementInSubtree#0;class#AbstractTree#0" expanded="false" />
-            <element signature="docComment;method#transplant#0;class#AbstractTree#0" expanded="false" />
-            <element signature="method#transplant#0;class#AbstractTree#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/RedBlackTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
@@ -568,7 +553,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/algorithms/QuickSort.java">
+    <entry file="file://$PROJECT_DIR$/src/lib/algorithms/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="4" column="87" lean-forward="false" selection-start-line="4" selection-start-column="84" selection-end-line="4" selection-end-column="87" />
@@ -587,8 +572,8 @@
         <state relative-caret-position="2256">
           <caret line="52" column="33" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="52" selection-end-column="33" />
           <folding>
-            <element signature="e#0#1407#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1100#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -598,7 +583,7 @@
         <state relative-caret-position="5184">
           <caret line="108" column="34" lean-forward="false" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="docComment;method#insert#0;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#delete#0;class#BinaryTree#0" expanded="false" />
             <element signature="method#delete#0;class#BinaryTree#0" expanded="false" />
@@ -607,7 +592,7 @@
             <element signature="docComment;method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
-            <element signature="e#2906#2936#0" expanded="true" />
+            <element signature="e#2906#2936#0" expanded="false" />
             <element signature="method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
           </folding>
         </state>
@@ -645,8 +630,8 @@
         <state relative-caret-position="2256">
           <caret line="52" column="33" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="52" selection-end-column="33" />
           <folding>
-            <element signature="e#0#1407#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1100#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -656,7 +641,7 @@
         <state relative-caret-position="1248">
           <caret line="108" column="34" lean-forward="true" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="docComment;method#insert#0;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#delete#0;class#BinaryTree#0" expanded="false" />
             <element signature="method#delete#0;class#BinaryTree#0" expanded="false" />
@@ -665,7 +650,7 @@
             <element signature="docComment;method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
-            <element signature="e#2906#2936#0" expanded="true" />
+            <element signature="e#2906#2936#0" expanded="false" />
             <element signature="method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
           </folding>
         </state>
@@ -703,8 +688,8 @@
         <state relative-caret-position="2256">
           <caret line="52" column="33" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="52" selection-end-column="33" />
           <folding>
-            <element signature="e#0#1407#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1100#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -714,7 +699,7 @@
         <state relative-caret-position="5040">
           <caret line="128" column="24" lean-forward="false" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="docComment;method#insert#0;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#delete#0;class#BinaryTree#0" expanded="false" />
             <element signature="method#delete#0;class#BinaryTree#0" expanded="false" />
@@ -723,7 +708,7 @@
             <element signature="docComment;method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
-            <element signature="e#2906#2936#0" expanded="true" />
+            <element signature="e#2906#2936#0" expanded="false" />
             <element signature="method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
           </folding>
         </state>
@@ -733,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,8 +736,8 @@
         <state relative-caret-position="2256">
           <caret line="52" column="33" lean-forward="false" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
           <folding>
-            <element signature="e#0#1407#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1100#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -762,7 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1152">
           <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +754,7 @@
         <state relative-caret-position="1344">
           <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="docComment;method#insert#0;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#delete#0;class#BinaryTree#0" expanded="false" />
             <element signature="method#delete#0;class#BinaryTree#0" expanded="false" />
@@ -780,7 +763,7 @@
             <element signature="docComment;method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
-            <element signature="e#2906#2936#0" expanded="true" />
+            <element signature="e#2906#2936#0" expanded="false" />
             <element signature="method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
           </folding>
         </state>
@@ -791,8 +774,8 @@
         <state relative-caret-position="528">
           <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
           <folding>
-            <element signature="e#0#1407#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1100#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -804,7 +787,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/algorithms/QuickSort.java">
+    <entry file="file://$PROJECT_DIR$/src/lib/algorithms/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1248">
           <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
@@ -816,13 +799,13 @@
         <state relative-caret-position="1221">
           <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
           <folding>
-            <element signature="e#0#1407#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1100#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/algorithms/QuickSort.java">
+    <entry file="file://$PROJECT_DIR$/src/lib/algorithms/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
@@ -841,8 +824,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#1407#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1100#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -863,14 +846,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/trees/BinaryTreeTest.java" />
     <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/BinaryTreeTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/algorithms/BinarySearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -892,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -909,7 +883,7 @@
         <state relative-caret-position="240">
           <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="docComment;method#insert#0;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#delete#0;class#BinaryTree#0" expanded="false" />
             <element signature="method#delete#0;class#BinaryTree#0" expanded="false" />
@@ -918,7 +892,7 @@
             <element signature="docComment;method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="method#insert#1;class#BinaryTree#0" expanded="false" />
             <element signature="docComment;method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
-            <element signature="e#2906#2936#0" expanded="true" />
+            <element signature="e#2906#2936#0" expanded="false" />
             <element signature="method#inOrderTreeWalk#1;class#BinaryTree#0" expanded="false" />
           </folding>
         </state>
@@ -935,13 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/algorithms/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/algorithms/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2928">
@@ -954,8 +921,8 @@
         <state relative-caret-position="192">
           <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
           <folding>
-            <element signature="e#1102#1103#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="false" />
+            <element signature="e#1129#1130#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -976,28 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/basic/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#1407#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/datastructures/basic/DoublyLinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -1006,40 +951,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/basic/DoublyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/tests/datastructures/basic/SinglyLinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/datastructures/basic/LinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="2112">
           <caret line="47" column="25" lean-forward="false" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/basic/HashTable.java">
+    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/basic/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/basic/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="73" column="26" lean-forward="false" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+        <state relative-caret-position="432">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1047,9 +970,79 @@
     <entry file="file://$PROJECT_DIR$/tests/lib/datastructures/basic/HashTableTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/basic/SinglyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2016">
+          <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/basic/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/basic/DoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/basic/HashTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/algorithms/SortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="830">
+          <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/algorithms/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <folding>
+            <element signature="e#72#102#0" expanded="true" />
           </folding>
         </state>
       </provider>

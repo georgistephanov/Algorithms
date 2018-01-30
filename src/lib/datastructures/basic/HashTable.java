@@ -22,10 +22,6 @@ public final class HashTable<Key, Value> {
 		}
 	}
 
-	private int hash(Key key) {
-		return (key.hashCode() & 0x7fffffff) % size;
-	}
-
 	public void insert(Key key, Value value) {
 		table[hash(key)].put(key, value);
 	}
@@ -38,5 +34,9 @@ public final class HashTable<Key, Value> {
 		if (table[hash(key)] != null) {
 			table[hash(key)].remove(key);
 		}
+	}
+
+	private int hash(Key key) {
+		return (key.hashCode() & 0x7fffffff) % size;
 	}
 }

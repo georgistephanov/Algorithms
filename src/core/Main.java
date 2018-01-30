@@ -23,19 +23,6 @@ public class Main {
 					+ "\nRight index: " + maxSubArr[1] + "\nSum: " + maxSubArr[2] + "\n\n");
 		}
 
-		// QuickSort
-		{
-			Integer [] arr2 = {2, 8, 7, 1, 9, 11, 3, 10, 5, 12, 6, 4};
-
-			System.out.println("Array 2 before sorting it with quicksort");
-			printArr(arr2);
-
-			QuickSort.sort(arr2, 0, arr2.length - 1);
-
-			System.out.println("\nArray 2 after sorting it with quicksort");
-			printArr(arr2);
-		}
-
 		// Binary search
 		{
 			BinaryTree<Integer> bt = new BinaryTree<>();

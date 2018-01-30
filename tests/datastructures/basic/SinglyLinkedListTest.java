@@ -1,12 +1,12 @@
 package datastructures.basic;
 
-import lib.datastructures.basic.LinkedList;
+import lib.datastructures.basic.SinglyLinkedList;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class LinkedListTest {
-	private LinkedList<Integer> list = new LinkedList<>();
+public class SinglyLinkedListTest {
+	private SinglyLinkedList<Integer> list = new SinglyLinkedList<>();
 
 	@Test
 	public void getFirst() throws Exception {

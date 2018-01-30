@@ -13,7 +13,7 @@ public final class BinarySearch {
 	@SuppressWarnings("unchecked")
 	public static <T extends Comparable<? super T>> int search(T array[], T find, boolean isSorted) {
 		if ( !isSorted ) {
-			QuickSort.sort(array, 0, array.length - 1);
+			Sort.quickSort(array, 0, array.length - 1);
 		}
 
 		int start = 0;
@@ -47,7 +47,7 @@ public final class BinarySearch {
 		}
 
 		if ( !isSorted ) {
-			QuickSort.sort(array, 0, array.length - 1);
+			Sort.quickSort(array, 0, array.length - 1);
 		}
 
 		int mid = (low + high) / 2;
