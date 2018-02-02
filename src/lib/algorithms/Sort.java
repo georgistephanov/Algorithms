@@ -1,6 +1,8 @@
 package lib.algorithms;
 
 public final class Sort {
+	private static Comparable [] aux;	// Static auxiliary array for the merge sort
+
 	private Sort() {}
 
 	@SuppressWarnings("unchecked")
@@ -35,6 +37,66 @@ public final class Sort {
 					swap(array, j, j-1);
 				}
 			}
+		}
+	}
+
+	public static <T extends Comparable<? super T>> void shellSort(T [] array) {
+		int interval = 1;
+
+		while (interval < array.length / 3) {
+			interval = interval * 3 + 1;
+		}
+
+		while (interval > 0) {
+			for (int i = interval; i < array.length; i++) {
+				for (int j = i; j >= interval && array[j].compareTo(array[j - interval]) < 0; j -= interval) {
+					swap(array, j, j - interval);
+				}
+			}
+
+			interval /= 3;
+		}
+	}
+
+	public static <T extends Comparable<? super T>> void mergeSort(T [] array) {
+		aux = new Comparable[array.length];
+		topDownMergeSort(array, 0, array.length - 1);
+	}
+
+	public static <T extends Comparable<? super T>> void bottomUpMergeSort(T [] array) {
+		aux = new Comparable[array.length];
+
+		for (int len = 1; len < array.length; len *= 2) {
+			for (int low = 0; low < array.length - len; low += len*2) {
+				merge(array, low, low + len - 1, Math.min(low+len+len-1, array.length-1));
+			}
+		}
+	}
+
+	private static <T extends Comparable<? super T>> void topDownMergeSort(T [] array, int low, int high) {
+		if (high <= low)
+			return;
+
+		int mid = low + (high - low) / 2;
+		topDownMergeSort(array, low, mid);
+		topDownMergeSort(array, mid + 1, high);
+		merge(array, low, mid, high);
+	}
+
+	@SuppressWarnings("unchecked")
+	private static <T extends Comparable<? super T>> void merge(T [] array, int low, int mid, int high) {
+		int lo = low;
+		int hi = mid + 1;
+
+		for (int i = low; i <= high; i++) {
+			aux[i] = array[i];
+		}
+
+		for (int i = low; i <= high; i++) {
+			if 		(lo > mid)								array[i] = (T) aux[hi++];	// First half is already sorted
+			else if (hi > high)								array[i] = (T) aux[lo++]; 	// Second half is already sorted
+			else if (aux[hi].compareTo(aux[lo]) < 0)		array[i] = (T) aux[hi++]; 	// Element from second half is smaller -> it goes next
+			else											array[i] = (T) aux[lo++];   // Element from first half is smaller -> it goes next
 		}
 	}
 

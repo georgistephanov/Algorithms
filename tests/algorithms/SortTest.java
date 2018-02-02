@@ -39,6 +39,33 @@ public class SortTest {
 	}
 
 	@Test
+	public void shellSort() throws Exception {
+		Sort.shellSort(unsortedInt);
+		assertArrayEquals(unsortedInt, sortedInt);
+
+		Sort.shellSort(unsortedChar);
+		assertArrayEquals(unsortedChar, sortedChar);
+	}
+
+	@Test
+	public void mergeSort() throws Exception {
+		Sort.mergeSort(unsortedInt);
+		assertArrayEquals(unsortedInt, sortedInt);
+
+		Sort.mergeSort(unsortedChar);
+		assertArrayEquals(unsortedChar, sortedChar);
+	}
+
+	@Test
+	public void bottomUpMergeSort() throws Exception {
+		Sort.bottomUpMergeSort(unsortedInt);
+		assertArrayEquals(unsortedInt, sortedInt);
+
+		Sort.bottomUpMergeSort(unsortedChar);
+		assertArrayEquals(unsortedChar, sortedChar);
+	}
+
+	@Test
 	public void quickSort() throws Exception {
 		Sort.quickSort(unsortedInt, 0, unsortedInt.length - 1);
 		assertArrayEquals(unsortedInt, sortedInt);
