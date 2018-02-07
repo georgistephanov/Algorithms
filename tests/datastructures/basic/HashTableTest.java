@@ -1,5 +1,6 @@
-package lib.datastructures.basic;
+package datastructures.basic;
 
+import lib.datastructures.basic.HashTable;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
