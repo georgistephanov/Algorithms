@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f548112-016b-4506-98b0-fd601846315b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lib/datastructures/basic/SymbolTableList.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/datastructures/basic/LinkedList.java" afterPath="$PROJECT_DIR$/src/lib/datastructures/basic/LinkedList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lib/datastructures/basic/SymbolTableArray.java" afterPath="$PROJECT_DIR$/src/lib/datastructures/basic/SymbolTable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/lib/datastructures/basic/HashTableTest.java" afterPath="$PROJECT_DIR$/tests/datastructures/basic/HashTableTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,82 +19,46 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/algorithms/Sort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SymbolTable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/datastructures/basic/SymbolTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SymbolTableTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/datastructures/basic/SymbolTableTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HashTableTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/datastructures/basic/HashTableTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaximumSubArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/algorithms/MaximumSubArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/algorithms/SortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2880">
-              <caret line="63" column="30" lean-forward="false" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#1100#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+          <file leaf-file-name="ArraysAndStrings.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/lib/exercises/ArraysAndStrings.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="894">
+                  <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ArraysAndStringsTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tests/lib/exercises/ArraysAndStringsTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="192">
+                  <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="ArraysAndStringsTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tests/lib/exercises/ArraysAndStringsTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="624">
+                  <caret line="36" column="76" lean-forward="false" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -164,6 +123,8 @@
         <option value="$PROJECT_DIR$/tests/lib/datastructures/basic/SymbolTableTest.java" />
         <option value="$PROJECT_DIR$/tests/datastructures/basic/SymbolTableTest.java" />
         <option value="$PROJECT_DIR$/tests/datastructures/basic/HashTableTest.java" />
+        <option value="$PROJECT_DIR$/tests/lib/exercises/ArraysAndStringsTest.java" />
+        <option value="$PROJECT_DIR$/src/lib/exercises/ArraysAndStrings.java" />
       </list>
     </option>
   </component>
@@ -243,56 +204,7 @@
             <path>
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="trees" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -308,13 +220,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="Errors" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Game" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -323,11 +235,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="lib.exercises" />
       <recent name="lib.datastructures.basic" />
       <recent name="datastructures.basic" />
       <recent name="algorithms" />
       <recent name="" />
-      <recent name="lib.datastructures.trees" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -345,13 +257,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SymbolTableTest">
-    <configuration name="DoublyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ArraysAndStringsTest">
+    <configuration name="ArraysAndStringsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="datastructures.basic" />
-      <option name="MAIN_CLASS_NAME" value="datastructures.basic.DoublyLinkedListTest" />
+      <option name="PACKAGE_NAME" value="lib.exercises" />
+      <option name="MAIN_CLASS_NAME" value="lib.exercises.ArraysAndStringsTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -457,18 +369,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.SinglyLinkedListTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DoublyLinkedListTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.HashTableTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SortTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SymbolTableTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.HashTableTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SortTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SymbolTableTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ArraysAndStringsTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SymbolTableTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SortTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SinglyLinkedListTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HashTableTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DoublyLinkedListTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ArraysAndStringsTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SymbolTableTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SortTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SinglyLinkedListTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HashTableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -476,47 +388,46 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="SymbolTableTest - 2018.02.07 at 11h 34m 49s.xml">
-      <configuration name="SymbolTableTest" configurationId="JUnit" />
+    <history-entry file="ArraysAndStringsTest - 2018.02.25 at 10h 14m 08s.xml">
+      <configuration name="ArraysAndStringsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SymbolTableTest - 2018.02.07 at 11h 35m 02s.xml">
-      <configuration name="SymbolTableTest" configurationId="JUnit" />
+    <history-entry file="ArraysAndStringsTest - 2018.02.25 at 10h 14m 59s.xml">
+      <configuration name="ArraysAndStringsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SymbolTableTest - 2018.02.07 at 11h 35m 51s.xml">
-      <configuration name="SymbolTableTest" configurationId="JUnit" />
+    <history-entry file="ArraysAndStringsTest - 2018.02.25 at 10h 15m 50s.xml">
+      <configuration name="ArraysAndStringsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SymbolTableTest - 2018.02.07 at 11h 36m 55s.xml">
-      <configuration name="SymbolTableTest" configurationId="JUnit" />
+    <history-entry file="ArraysAndStringsTest - 2018.02.25 at 10h 15m 58s.xml">
+      <configuration name="ArraysAndStringsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SymbolTableTest - 2018.02.07 at 11h 38m 26s.xml">
-      <configuration name="SymbolTableTest" configurationId="JUnit" />
+    <history-entry file="ArraysAndStringsTest - 2018.02.25 at 10h 25m 50s.xml">
+      <configuration name="ArraysAndStringsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SymbolTableTest - 2018.02.07 at 11h 39m 26s.xml">
-      <configuration name="SymbolTableTest" configurationId="JUnit" />
+    <history-entry file="ArraysAndStringsTest - 2018.02.25 at 10h 26m 48s.xml">
+      <configuration name="ArraysAndStringsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SymbolTableTest - 2018.02.07 at 12h 45m 49s.xml">
-      <configuration name="SymbolTableTest" configurationId="JUnit" />
+    <history-entry file="ArraysAndStringsTest - 2018.02.25 at 10h 28m 18s.xml">
+      <configuration name="ArraysAndStringsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SymbolTableTest - 2018.02.07 at 12h 46m 26s.xml">
-      <configuration name="SymbolTableTest" configurationId="JUnit" />
+    <history-entry file="ArraysAndStringsTest - 2018.02.25 at 10h 28m 42s.xml">
+      <configuration name="ArraysAndStringsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SymbolTableTest - 2018.02.07 at 12h 47m 26s.xml">
-      <configuration name="SymbolTableTest" configurationId="JUnit" />
+    <history-entry file="ArraysAndStringsTest - 2018.02.25 at 10h 30m 01s.xml">
+      <configuration name="ArraysAndStringsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SymbolTableTest - 2018.02.07 at 12h 48m 05s.xml">
-      <configuration name="SymbolTableTest" configurationId="JUnit" />
+    <history-entry file="ArraysAndStringsTest - 2018.02.25 at 10h 30m 09s.xml">
+      <configuration name="ArraysAndStringsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-14" y="-14" width="3868" height="2098" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978126" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26135728" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2916433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -547,27 +458,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5184">
-          <caret line="108" column="34" lean-forward="false" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/RedBlackTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1776">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/trees/AbstractTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/core/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2256">
@@ -845,7 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="26" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -869,18 +758,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/datastructures/basic/SymbolTable.java" />
     <entry file="file://$PROJECT_DIR$/tests/datastructures/basic/SymbolTableTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/basic/SymbolTableList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/datastructures/basic/SymbolTableList.java" />
     <entry file="file://$PROJECT_DIR$/src/lib/algorithms/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+        <state relative-caret-position="2880">
+          <caret line="60" column="29" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -888,17 +770,17 @@
     <entry file="file://$PROJECT_DIR$/src/lib/datastructures/basic/SymbolTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/datastructures/basic/SymbolTableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="240">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -906,7 +788,33 @@
     <entry file="file://$PROJECT_DIR$/tests/datastructures/basic/HashTableTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#645#646#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/lib/exercises/ArraysAndStringsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/exercises/ArraysAndStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="894">
+          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding />
         </state>
       </provider>
