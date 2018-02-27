@@ -6,6 +6,8 @@
 
 package core;
 import lib.algorithms.*;
+import lib.datastructures.graphs.Graph;
+import lib.datastructures.graphs.UndirectedGraph;
 import lib.datastructures.trees.BinaryTree;
 
 public class Main {
@@ -23,22 +25,21 @@ public class Main {
 					+ "\nRight index: " + maxSubArr[1] + "\nSum: " + maxSubArr[2] + "\n\n");
 		}
 
-		// Binary search
-		{
-			BinaryTree<Integer> bt = new BinaryTree<>();
-			bt.insert(12);
-			bt.insert(5);
-			bt.insert(18);
-			bt.insert(2);
-			bt.insert(9);
-			bt.insert(15);
-			bt.insert(13);
-			bt.insert(19);
-			bt.insert(17);
+		// BFS and DFS
+		Graph graph = new UndirectedGraph(6);
+		graph.addEdge(0, 1);
+		graph.addEdge(0, 5);
+		graph.addEdge(0, 4);
+		graph.addEdge(1, 3);
+		graph.addEdge(3, 2);
+		graph.addEdge(3, 4);
+		graph.addEdge(2, 4);
 
-			System.out.println();
-			bt.inOrderTreeWalk();
-		}
+		System.out.println("Depth first search: ");
+		new DepthFirstSearch(graph, 0);
+
+		System.out.println("\nBreadth first search: ");
+		new BreadthFirstSearch(graph, 0);
 	}
 
 	private static void printArr(Integer a[]) {

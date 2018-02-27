@@ -11,7 +11,7 @@ public class UndirectedGraph implements Graph {
 	private LinkedList<Integer> [] adjacent;
 
 	@SuppressWarnings("unchecked")
-	UndirectedGraph(int vertices) {
+	public UndirectedGraph(int vertices) {
 		this.vertices = vertices;
 
 		adjacent = (LinkedList<Integer>[]) new LinkedList[vertices];

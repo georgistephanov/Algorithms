@@ -51,7 +51,7 @@ public class DirectedGraphTest {
 		zero.insertFirst(1);
 		zero.insertFirst(2);
 		zero.insertFirst(3);
-		
+
 		assertEquals(graph.adj(0).at(0).getKey(), zero.at(0).getKey());
 		assertEquals(graph.adj(0).at(1).getKey(), zero.at(1).getKey());
 		assertEquals(graph.adj(0).at(2).getKey(), zero.at(2).getKey());
