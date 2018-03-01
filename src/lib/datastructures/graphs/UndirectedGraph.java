@@ -1,7 +1,7 @@
 package lib.datastructures.graphs;
 
-import lib.datastructures.basic.LinkedList;
-import lib.datastructures.basic.SinglyLinkedList;
+import lib.datastructures.basic.linkedlist.LinkedList;
+import lib.datastructures.basic.linkedlist.SinglyLinkedList;
 
 import java.security.InvalidParameterException;
 

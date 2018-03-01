@@ -1,14 +1,14 @@
 /*
-	This is a project where I write the algorithms I learn in practice.
+	This is a project where I write the lib.algorithms I learn in practice.
 	This project has been started on 29.09.2017.
 	Let's see how big it can grow ;-)
  */
 
 package core;
 import lib.algorithms.*;
+import lib.datastructures.basic.heap.MinHeap;
 import lib.datastructures.graphs.Graph;
 import lib.datastructures.graphs.UndirectedGraph;
-import lib.datastructures.trees.BinaryTree;
 
 public class Main {
 
@@ -40,6 +40,22 @@ public class Main {
 
 		System.out.println("\nBreadth first search: ");
 		new BreadthFirstSearch(graph, 0);
+
+		System.out.println("\n");
+
+		// Binary min heap
+		MinHeap heap = new MinHeap();
+		heap.insert(2);
+		heap.insert(5);
+		heap.insert(6);
+		heap.insert(14);
+		heap.insert(13);
+		heap.insert(16);
+		heap.insert(8);
+		heap.remove();
+		heap.print();
+
+		System.out.println("\n");
 	}
 
 	private static void printArr(Integer a[]) {

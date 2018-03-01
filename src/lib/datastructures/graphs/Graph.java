@@ -1,6 +1,6 @@
 package lib.datastructures.graphs;
 
-import lib.datastructures.basic.LinkedList;
+import lib.datastructures.basic.linkedlist.LinkedList;
 
 public interface Graph {
 	int V();

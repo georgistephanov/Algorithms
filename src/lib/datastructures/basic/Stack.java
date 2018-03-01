@@ -21,7 +21,7 @@ public final class Stack<T> {
 			return;
 		}
 
-		// If the current array is full resize it dynamically to twice its current size
+		// If the current array is full resize it dynamically to twice its current index
 		if ( numOfElements >= elements.length - 1 ) {
 			elements = Arrays.copyOf(elements, elements.length * 2);
 		}
